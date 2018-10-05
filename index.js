@@ -7,14 +7,14 @@ const config = require("./config.json");
 const snekfetch = require('snekfetch');
 client.on('ready', () => {
     console.log('beep boop')
-    client.user.setPresence({game: { name: "l!help | " + client.guilds.size +" Guilds",type:0}});
+    client.user.setPresence({game: { name: "bobs | " + client.guilds.size +" bsb",type:0}});
 });
 client.on('guildCreate', (guild) => {
-    client.user.setPresence({game: { name: "l!help | " + client.guilds.size +" Guilds",type:0}});
+    client.user.setPresence({game: { name: "bs | " + client.guilds.size +" bsb",type:0}});
 });
 
 client.on('guildRemove', (guild) => {
-  client.user.setPresence({game: { name: "l!help | " + client.guilds.size +" Guilds",type:0}});
+  client.user.setPresence({game: { name: "ssss | " + client.guilds.size +" ddd",type:0}});
 });
 
 client.on("message", msg => {
